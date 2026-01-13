@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Basics/Basics.iml" filepath="$PROJECT_DIR$/Basics/Basics.iml" />
       <module fileurl="file://$PROJECT_DIR$/CoreJavaConcepts.iml" filepath="$PROJECT_DIR$/CoreJavaConcepts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaStreams/JavaStreams.iml" filepath="$PROJECT_DIR$/JavaStreams/JavaStreams.iml" />
     </modules>
   </component>
 </project>
