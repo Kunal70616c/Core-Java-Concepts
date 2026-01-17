@@ -1,3 +1,8 @@
+@FunctionalInterface
+interface MathOperation {
+    int operate(int a, int b);
+}
+
 public class LambdaExpression {
     public static void main(String[] args) {
         // lambda Expression
@@ -12,17 +17,12 @@ public class LambdaExpression {
         //when only one line we can skip the return statement
         MathOperation subtractOperations = (a, b) -> a - b;
 
-        int resSum = sumOperations.operate(5,7);
-        int resSub = subtractOperations.operate(8,4);
+        int resSum = sumOperations.operate(5, 7);
+        int resSub = subtractOperations.operate(8, 4);
 
         System.out.println(resSub);
         System.out.println(resSum);
     }
-}
-
-@FunctionalInterface
-interface MathOperation {
-    int operate(int a, int b);
 }
 //class Task implements Runnable{
 //
