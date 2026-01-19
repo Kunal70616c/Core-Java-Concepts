@@ -40,7 +40,8 @@ public class StreamIntro {
         //3. Using Stream.of()
         Stream.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
         //4. Infinite Stream
-        Stream<Integer> infinteStream = Stream.generate(()->1).limit(50);
+        Stream<Integer> infinteStream = Stream.generate(()->1);
+        //5. Infinite Stream with limit
         List<Integer> collect = Stream.iterate(1, x->x+1).limit(50).collect(Collectors.toList());
 
     }
