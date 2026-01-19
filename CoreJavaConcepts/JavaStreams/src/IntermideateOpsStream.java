@@ -66,6 +66,6 @@ public class IntermideateOpsStream {
         System.out.println(listOfIntegers.stream().findFirst().get());
         System.out.println(listOfIntegers.stream().findAny().get());
 
-        
+
     }
 }
